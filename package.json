@@ -1,0 +1,37 @@
+{
+  "name": "simple2e",
+  "version": "1.0.0",
+  "description": "Wrapper around cryptico with support for storing public / private RSA keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc" : "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/considine/simple2e.git"
+  },
+  "keywords": [
+    "RSA",
+    "public",
+    "private",
+    "cryptography",
+    "cryptico"
+  ],
+  "author": "Jack Considine <jackconsidine3@gmail.com> (jackconsidine.wordpress.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/considine/simple2e/issues"
+  },
+  "homepage": "https://github.com/considine/simple2e#readme",
+  "dependencies": {
+    "@types/crypto-random-string": "^1.0.0",
+    "cryptico": "^1.0.2",
+    "crypto-random-string": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.3",
+    "nodemon": "^1.18.6",
+    "typescript": "^3.1.6"
+  }
+}
